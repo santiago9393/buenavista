@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+@import	url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+h1{
+	background-color:#F4F6F6;
+	color:#2980B9; 
+	font-family:Nunito;
+	letter-spacing: 5px;
+	text-align: center;
+}
+h4{
+	color:#2980B9;
+}
+h2{
+	background-color:#F4F6F6;
+	color:#2980B9; 
+	font-family:Nunito;
+	letter-spacing: 2px;
+	text-align: center;
+}
+a{
+	color:#2980B9;
+	font-size:19px;
+	font-weight: bold;
+	background-color:#F4F6F6;
+	text-decoration: none;
+	display: inline;
+}
+p{
+	font-weight:bold;
+}
+footer{
+	background-color:#F4F6F6;
+	color:#2980B9; 
+	font-family:Nunito;
+	letter-spacing: 1px;
+	text-align: center;
+	font-size:20px;
+	position:relative;
+	bottom:0;
+}
+header{
+	position: fixed;
+	width: 100%;
+}
+.padre{
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			height: 250px;
+			justify-content: flex-start;
+		}
+.hijo{
+	padding: 5px;
+}
+.uno{
+	list-style-type: none;
+	display: inline-block;
+	font-family:Inconsolata;
+}
+.uno:hover{
+	transform: scale(1.1);
+	transition: 0.4s;
+}
+.Alineacion{
+	text-align: center;
+	background-color: #F4F6F6;
+}
+.Margen{
+	margin-right: 8px;
+	margin-left: 8px;
+	background-color: #EAF2F8;
+}
+.colorVerde{
+	color:#16A085;
+	font-weight:bold;
+	font-size:20px;
+	font-family:arial;
+}	
+.colorNegro{
+	color: black;
+	font-weight:bold;
+}
+.producto{
+	color: #E59866;
+	font-size:17px;
+	font-family: Nunito;
+	font-weight:bold;
+	li > span{
+		color:#2980B9;
+		background-color:#F4F6F6;
+		letter-spacing: 1px;
+		}
+}
+.Foto{
+	width: 100%;
+}
+.Wasabi{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 10;
+	a{
+	background-color: transparent;
+	}
+}
+.Wasabi:hover{
+		transform: scale(1.3);
+		transition: 0.4s;
+}
+.fotoProducto{
+	position: relative;
+	bottom: 0;	
+	right: 0;
+	width: 250px;
+	height: 250px;
+	z-index: -1;
+}
+.posicion{
+	float: left;
+}
+.ancho{
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+	padding: 10px 10%;
+}
+.padding{
+	padding:10px 50px 20px; 
+}
+.padding2{
+	display:inline;
+	padding:70px;
+}
+.grid {
+   display: grid;  
+   grid-template-columns: 50% 50%; 
+   grid-template-rows: repeat(4, 250px); 
+   grid-column-gap: 10px;
+   grid-row-gap: 30px;
+}
+.posicionProductos{
+	position:relative;
+	top:200px;
+}
+.ubicacionFoto{
+		display: flex;
+		height: 300px;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		background-color:#F4F6F6;
+		align-items: center;
+}
+.hijoFoto{
+		padding: 50px;
+		flex:1;
+		z-index:10;	
+}
+.parrafo{
+	font-size: 15px;
+	font-weight:bolder;
+	font-family: Nunito;
+	color: #E59866;
+}
+.Fondo{
+	height: 100%;
+	background-image: url(media/Fond2.jpg);
+	color: white;
+}
+.letraVerde{
+	font-family:Inconsolata;
+	color: #45B39D;
+	font-weight: bolder;
+}
+.zeta{
+	z-index: 100;
+}
+.nuestrosTrabajos{
+	display: flex;
+	position: relative;
+	justify-content: center;
+}
+@media all and (min-width: 768px){
+	header{
+		background-color: #EBF5FB;
+	}
+}
+.revendedor{
+background: #b0d4e3; /* Old browsers */
+background: -moz-linear-gradient(top,  #b0d4e3 0%, #88bacf 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #b0d4e3 0%,#88bacf 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #b0d4e3 0%,#88bacf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0d4e3', endColorstr='#88bacf',GradientType=0 ); /* IE6-9 */
+}
+.buenavista{
+background: rgb(233,241,247); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(233,241,247,1) 0%, rgba(190,212,228,1) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(233,241,247,1) 0%,rgba(190,212,228,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(233,241,247,1) 0%,rgba(190,212,228,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9f1f7', endColorstr='#bed4e4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
