@@ -41,7 +41,8 @@ footer {
   text-align: center;
   font-size: 20px;
   position: relative;
-}
+  bottom: 0; }
+
 header {
   position: fixed;
   width: 100%; }
@@ -131,7 +132,7 @@ header {
 
 .padding2 {
   display: inline;
-  padding: 50px; }
+  padding: 70px; }
 
 .grid {
   display: grid;
