@@ -31,7 +31,9 @@ a {
   display: inline; }
 
 p {
-  font-weight: bold; }
+  font-weight: bold;
+  background-color:#EBF5FB
+   }
 
 footer {
   background-color: #F4F6F6;
@@ -44,7 +46,7 @@ footer {
   bottom: 0; }
 
 header {
-  position: fixed;
+  position: sticky;
   width: 100%; }
 
 .padre {
@@ -96,13 +98,14 @@ header {
     letter-spacing: 1px; }
 
 .Foto {
-  width: 100%; }
+  width: 100%;
+  margin-top: 0%; }
 
 .Wasabi {
   position: fixed;
   bottom: 0;
   right: 0;
-  z-index: 10; }
+  z-index: 110; }
   .Wasabi a {
     background-color: transparent; }
 
@@ -134,20 +137,21 @@ header {
   display: inline;
   padding: 70px; }
 
+.padding3 {
+  display: flex;
+  padding: 2em;
+  margin: auto; }
+
 .grid {
   display: grid;
+  width: 100%;
   grid-template-columns: 50% 50%;
   grid-template-rows: repeat(4, 250px);
   grid-column-gap: 10px;
   grid-row-gap: 30px; }
 
-.posicionProductos {
-  position: relative;
-  top: 200px; }
-
 .ubicacionFoto {
   display: flex;
-  height: 300px;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
